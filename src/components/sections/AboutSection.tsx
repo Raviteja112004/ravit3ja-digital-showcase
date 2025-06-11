@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code, Graduation, Heart } from 'lucide-react';
+import { Code, GraduationCap, Heart } from 'lucide-react';
 
 export const AboutSection = () => {
   return (
@@ -45,7 +45,7 @@ export const AboutSection = () => {
               whileHover={{ scale: 1.05 }}
               className="flex items-center space-x-2 bg-pink-600/20 px-4 py-2 rounded-lg"
             >
-              <Graduation className="text-pink-400" size={20} />
+              <GraduationCap className="text-pink-400" size={20} />
               <span>Student</span>
             </motion.div>
             <motion.div
